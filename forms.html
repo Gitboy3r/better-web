@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="nav-menu.css">
+</head>
+
+<header>
+	<nav>
+		<div class="logo">
+			<a href="index.html">BETTER WEBB</a>
+		</div>
+		<input type="checkbox" id="menu-toggle" />
+		<label for="menu-toggle" class="menu-icon">&#9776;</label>
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li>
+				<a href="product-page.html">Product</a>
+			</li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<body>
+
+<!----- FORM ---->
+<section class="form-container">
+
+	<form>
+		<h1 id="FormHeading">Register.</h1>
+		<div class="name">
+			<li><label>First Name:</label>
+				<input type="text" required pattern="[A-Za-z]+" placeholder="Jonah">
+			</li>
+			<li><label>Last Name:</label>
+				<input type="text" required pattern="[A-Za-z]+" placeholder="Hill">
+			</li>
+		</div>
+		<li>
+		<label>Address</label>
+		<input type="adress" required placeholder="Ex. Wall Street">
+		</li>
+
+		<div class="name">
+			<li><label>Zip Code</label>
+				<input type="text" required pattern="[0-9]+" placeholder="133 37">
+			</li>
+			<li><label>City</label>
+				<input type="text"required pattern="[A-Za-z]+" placeholder="Westeros">
+			</li>
+		</div>
+
+		<li>
+			<label>Email:</label>
+			<input type="email" required placeholder="johndoe123@gmail.com">
+		</li>
+
+		<div class="festival">
+			<li><label>Festival Pass</label>
+				<select required>
+
+					<option>Day Pass</option>
+					<option>2-Day Pass</option>
+					<option>Full Festival Pass</option>
+				<select>
+
+			<div class="festival">
+				<li><label>Wanna order food?</label>
+					<select required>
+
+						<option>No</option>
+						<option>Yes - Meat</option>
+						<option>Yes - Vegetarian</option>
+						<option>Yes - Pescaterian</option>
+						<option>Yes - Vegan</option>
+
+					<select>
+				<li>
+		</div>
+
+
+
+		<div class="textarea">
+
+
+		<li>
+		<label>Allergies</label>
+		<input type="textarea" placeholder="Ex. peanuts, apples...">
+		</li>
+		</div>
+
+		<li class="Subscribe">
+			<div class="CheckBoxCont" onclick="ToggleCheckBox(this)" data-status="true">
+				<div class="tick">
+					<hr class="Tickline1">
+					<hr class="Tickline2">
+				</div>
+			</div><label for="subscribe">I want to get updates.</label>
+		</li>
+		<button class="register" type="submit">Register</button>
+	</form>
+
+</div>
+
+
+</body>
+</html>

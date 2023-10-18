@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+body {
+	height: 100vh;
+	background-image: url("gamebg.jpg");
+	background-size: cover;
+}
+
+
+.yay-container{
+	margin: 2em;
+	width: 100%;
+	padding: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+
+}
+
+.yay-info{
+	color:white;
+	display: flex;
+	padding: 3em 4em 2em 4em;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 450px;
+	background: rgba(255, 255, 255, 0.13);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(3.2px);
+	-webkit-backdrop-filter: blur(3.2px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.yay-text  h1, p {
+
+text-align: center;
+
+}
+
+.yay-text p{
+	letter-spacing: 1px;
+}
+
+.help{
+	font-size: small;
+	color: rgb(217, 217, 217);
+
+}
+
+.yay-info > img{
+	width: 50%;
+
+}
+
+.yay-img {
+	width: 150px;
+
+}
+
+.yay-text{
+	margin: 1em;
+}
+
+.back {
+	width: 15em;
+	font-size: 14px;
+	color: #fff;
+	background: linear-gradient(0deg, rgb(143, 0, 158) 0%, rgba(190, 110, 190, 1) 7%, rgba(253, 187, 45, 1) 100%);
+	border: 1px solid white;
+	padding: 10px 30px;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 1em;
+	transform: scale(100%);
+	transition: 200ms;
+
+}
+
+.back:hover {
+
+	transition: 800ms;
+	background: #a402b3;
+	color: #ffffff;
+	transform: scale(105%);
+	transition: 200ms;
+}
+
+.back a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
