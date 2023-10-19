@@ -482,11 +482,17 @@
 /* ---- SPONSORS ---- */
 
 .sponsor-container {
+	width: 100%;
 	background-color: #262626;
-
+	display: flex;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
+	justify-content: center;
 
+}
+
+.sponsor-title{
+display: block;
 }
 
 .sponsor-container>h1 {
@@ -499,15 +505,16 @@
 }
 
 .sponsors-profiles {
-	min-width: 350px;
+	width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	gap: 0em;
-	flex-direction: row;
 	flex-wrap: nowrap;
 }
 
 .sponsors>img {
 	max-width: 90px;
+
 }
