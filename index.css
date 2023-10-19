@@ -27,22 +27,7 @@ main{
 
 	gap: 2em;
 }
-/*
-@use postcss-preset-env {
-	stage: 0;
-}
 
-.head-title {
-	background-clip: text;
-	background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
-	color: #000119;
-	font-size: 1em;
-	font-weight: 700;
-	letter-spacing: calc(1em / 8);
-	padding: calc(1em / 2);
-	-webkit-text-stroke-color: transparent;
-	-webkit-text-stroke-width: calc(1em / 8);
-} */
 
 .intro-info {
 	display: flex;
@@ -59,8 +44,13 @@ main{
 	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.intro-info > p {
-	font-size: 2em;
+.intro-desc {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.intro-info>ul li {
+	list-style: none;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .btn-row{
