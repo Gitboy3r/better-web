@@ -10,78 +10,39 @@ main{
 
 }
 
-header {
-	position: sticky;
-	top: 0;
-	width: 100%;
-	box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
-
-}
-
-footer{
-	width: 100%;
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 30px;
-}
-
-.logo a{
-	color: wheat;
-	font-size: 1em;
-}
-
-.menu{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	justify-content: space-between;
-	column-gap: 3em;
-
-
-}
-
-.menu-icon {
-	display: none;
-}
-
-.menu a{
-	display: block;
-	padding: 7px 15px;
-	font-size: 17px;
-	font-weight: 500;
-	transition: 0.2s all ease-in-out;
-	color: #000000;
-}
-
-
 
 
 /* ---- INTRO ---- */
 
 .intro-container{
 	width: 100%;
-	display: flex;
-	columns: 2;
-	flex-grow: 1;
-	min-height: 600px;
-	background-image: url("headerbg.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	display: grid;
 	justify-content: center;
 	align-items: center;
-	gap: 10em;
+	grid-template-columns: repeat(2, 1fr);
+	min-height: 600px;
+	background-image: url("images/headerbg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 
+	gap: 2em;
+}
+/*
+@use postcss-preset-env {
+	stage: 0;
 }
 
-
-.intro-text{
-	color: azure;
-	font-size: 3em;
-}
+.head-title {
+	background-clip: text;
+	background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+	color: #000119;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: calc(1em / 8);
+	padding: calc(1em / 2);
+	-webkit-text-stroke-color: transparent;
+	-webkit-text-stroke-width: calc(1em / 8);
+} */
 
 .intro-info {
 	display: flex;
@@ -127,7 +88,7 @@ nav {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-image: url("herobg2.jpg");
+	background-image: url("images/herobg2.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center;
@@ -309,7 +270,7 @@ nav {
 .ticket-container {
 	margin: 0;
 	padding: 5em;
-	background-image: url("register.jpg");
+	background-image: url("images/register.jpg");
 	background-size: cover;
 	background-position: center;
 
