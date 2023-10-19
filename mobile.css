@@ -16,15 +16,12 @@
 		font-family: 'Courier New', Courier, monospace;
 	}
 
+	in
+
 	.intro-info > ul li{
 			list-style: none;
 			font-family: 'Courier New', Courier, monospace;
 	}
-
-	.intro-text > h2{
-			color: azure;
-			font-size: 1.3em;
-		}
 
 		.intro-info {
 			display: flex;
@@ -35,10 +32,6 @@
 			height: 380px;
 			color: white;
 			border-radius: 20px;
-		}
-
-		.intro-info>p {
-			font-size: 1em;
 		}
 
 		.btn-row {
