@@ -184,13 +184,16 @@ main{
 .seminar-container {
 	padding: 0 10em;
 	width: 100%;
-	padding: 1rem 0;
 	display: grid;
 	place-content: center;
 	background: rgb(8, 1, 122);
 	background: linear-gradient(180deg, #540561 22%, #1a1af66f 78%, #00d4ff71 100%);
 
 }
+		.seminar-container>h1 {
+			color: white;
+			padding-bottom: 1em;
+		}
 
 .seminar-container > h1{
 	letter-spacing: 4px;

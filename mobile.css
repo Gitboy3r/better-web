@@ -12,8 +12,13 @@
 
 	}
 
-	.intro-text{
-		margin-top: 1em;
+	.intro-desc {
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	.intro-info > ul li{
+			list-style: none;
+			font-family: 'Courier New', Courier, monospace;
 	}
 
 	.intro-text > h2{
@@ -33,7 +38,7 @@
 		}
 
 		.intro-info>p {
-			font-size: 2em;
+			font-size: 1em;
 		}
 
 		.btn-row {
@@ -293,9 +298,6 @@
 	.seminar-container {
 		height: 100%;
 		width: 100%;
-
-
-
 	}
 
 		.cards {
@@ -375,7 +377,7 @@
 	.ticket-container{
 		margin: 0;
 		padding: 5em;
-		background-image: url("register.jpg");
+		background-image: url("images/register.jpg");
 		background-size: cover;
 		background-position: center;
 
