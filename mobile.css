@@ -16,7 +16,6 @@
 		font-family: 'Courier New', Courier, monospace;
 	}
 
-	in
 
 	.intro-info > ul li{
 			list-style: none;
@@ -482,17 +481,11 @@
 /* ---- SPONSORS ---- */
 
 .sponsor-container {
-	width: 100%;
 	background-color: #262626;
-	display: flex;
+
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	justify-content: center;
 
-}
-
-.sponsor-title{
-display: block;
 }
 
 .sponsor-container>h1 {
@@ -505,16 +498,15 @@ display: block;
 }
 
 .sponsors-profiles {
-	width: 100%;
+	min-width: 350px;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	gap: 0em;
+	flex-direction: row;
 	flex-wrap: nowrap;
 }
 
 .sponsors>img {
 	max-width: 90px;
-
 }

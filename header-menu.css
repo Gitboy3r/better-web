@@ -39,8 +39,7 @@ nav {
 	font-size: 17px;
 	font-weight: 500;
 	transition: 0.2s all ease-in-out;
-	color: #ffffff;
-	text-decoration: none;
+	color: #000000;
 }
 
 .menu:hover a {
@@ -50,8 +49,6 @@ nav {
 .menu a:hover {
 	opacity: 1;
 	color: #fff;
-}
-
 }
 
 .menu-icon {
