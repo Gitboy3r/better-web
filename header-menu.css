@@ -39,7 +39,8 @@ nav {
 	font-size: 17px;
 	font-weight: 500;
 	transition: 0.2s all ease-in-out;
-	color: #000000;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .menu:hover a {
