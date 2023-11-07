@@ -76,16 +76,17 @@ form label {
 
 .check-area{
 	display: flex;
-	justify-content: center;
+	align-items: center;
 	justify-content: space-around;
 }
 
 .checkbox {
-    display: table;
+    display: flex;
 }
 .checkbox > label {
 	display: flex;
     display: table-row;
+	align-self: center;
 }
 
 input.larger{
@@ -95,10 +96,6 @@ input.larger{
 	color: #fff;
 }
 
-#chk {
-    display: table-row;
-    width: 100%;
-}
 
 .check-title{
 	display: flex;
