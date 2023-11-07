@@ -23,7 +23,6 @@ body{
 }
 
 .form-card {
-
 	width: 560px;
 	font-family: Poppins;
 	padding: 10px;
@@ -45,12 +44,12 @@ form {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
-	background: rgba(255, 255, 255, 0.2);
-		border-radius: 16px;
-		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-		backdrop-filter: blur(5px);
-		-webkit-backdrop-filter: blur(5px);
-		border: 1px solid rgba(255, 255, 255, 0.3);
+	background: rgba(35, 27, 27, 0.72);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .name {
@@ -65,8 +64,6 @@ form .list {
 	flex-direction: column;
 	padding: 0px 5px;
 	text-align: left;
-
-
 }
 
 form label {
@@ -77,9 +74,45 @@ form label {
 	color: rgb(255, 255, 255);
 }
 
-input::placeholder{
-	color: lightgrey;
+.check-area{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
 
+.checkbox {
+    display: table;
+}
+.checkbox > label {
+	display: flex;
+    display: table-row;
+}
+
+input.larger{
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#chk {
+    display: table-row;
+    width: 100%;
+}
+
+.check-title{
+	display: flex;
+	align-items: center;
+}
+
+.check-title label{
+	font-size: 1.2em;
+
+}
+
+
+input::placeholder{
+	color: rgb(255, 255, 255);
 }
 
 form input,
